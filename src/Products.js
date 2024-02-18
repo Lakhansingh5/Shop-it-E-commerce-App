@@ -6,6 +6,7 @@ import { useFilterContext } from "./context/filter_context";
 
 const Products = () => {
 
+  // eslint-disable-next-line no-unused-vars
   const {filter_products} = useFilterContext();
   
   return (
